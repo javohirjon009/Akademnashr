@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.hom_footer{
+    background-color: #F8F8F8;
+    margin-top: 170px;
+    height: 500px;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 90px;
+}
+.chiziq-uchun{
+    width: 100%;
+    height: 2px;
+    background-color: #25242080;
+    margin:110px auto;
+
+}
+.p14 {
+    color: #f39c12;
+    font-size: 20px;
+    font-weight: 400;
+  line-height: 50px;
+    font-family: Roboto;
+    width: 100%;
+}
+
+.p15 {
+line-height: 33px;
+    font-family: Roboto;
+    width: 100%;
+}
+
+.katta4 {
+    display: flex;
+  gap: 160px;
+  position: relative;
+  top: -50px;
+}
+ @media (max-width: 1024px){
+.p14{
+    font-size: 18px;
+    width: 100%;
+}
+.p15{
+    font-size: 16px;
+    width: 100%;
+}
+.katta4{
+    gap: 25px;
+}
+ }
+ @media (max-width: 768px){
+    .katta4{
+        display: inline-block;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .hom_footer{
+        background-color: #F8F8F8;
+        height: auto;
+        margin-top: 0px;
+    }
+ }
